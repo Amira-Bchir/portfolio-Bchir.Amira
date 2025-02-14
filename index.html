@@ -23,17 +23,18 @@
     </head>
     <body>
         <header>
-             <!-- Barre de navigation -->
-             <nav>
-                <a href="#about">À propos</a>
-                <a href="#projects">Projets</a>
-                <a href="#contact">Contact</a>
-              </nav>
         </header>
         <main>
             <div class="container">
+                 <!-- Barre de navigation -->
+             <nav>
+              <a href="#about" class="textnav">À propos</a>
+              <a href="#cerficats" class="textnav">Certificats</a>
+              <a href="#projects" class="textnav">Projets</a>
+              <a href="#contact" class="textnav">Contact</a>
+            </nav>
                     <!-- En-tête -->
-                      <h1 class="text-center mt-5"> Bchir Amira </h1>
+                      <h1 class="text-center mt-5"> Bchir Amira </h1><hr>
                       <h3 class="text-center mt-3"> Graphic Designer - Web Designer - Motion Designer </h3>
                       <h3 class="text-center mt-3"> Ui/Ux Designer - Web Developer </h3>
                     <!-- Section "À propos" -->
@@ -52,77 +53,62 @@ avec vous dans le cadre d'un entretien ; en attendant je reste à votre disposit
 Monsieur / Madame mes sincères salutations</p>
                     </section>
                     <!--section Certificats-->
-                    <section>
-                      <img src="images/Portfolio 25.png" alt="description" class="image">
-                        <section id="Certificats"></section>
-                        <h1 class="text-center"> Certificats</h1>
-                        <h4 class="text-center mt-3"> 2025 : Certificat en Adobe Photoshop </h4>
-                        <h4 class="text-center">2025 : Certificat en Adobe illustrator </h4>
-                        <h4 class="text-center">2025 : Certificat en Adobe Xd</h4>
-                        <h4 class="text-center">2025 : Certificat en Adobe InDesign </h4>
-                        <h4 class="text-center">2025 : Certificat en Adobe After Effect </h4>
-                        <h4 class="text-center">2025 : Certificat en Adobe Marketing  Digital</h4>
-                        <h4 class="text-center">2025 : Certificat en Adobe Développement </h4>
+                    <section id="certificats">
+                        <h1 class="text-center mt-5"> Certificats </h1><hr>
+                        <h4 class="text-center mt-3 hc"> 2025 : Certificat en Adobe Photoshop </h4>
+                        <h4 class="hc">2025 : Certificat en Adobe illustrator </h4>
+                        <h4 class="hc">2025 : Certificat en Adobe Xd</h4>
+                        <h4 class="hc">2025 : Certificat en Adobe InDesign </h4>
+                        <h4 class="hc">2025 : Certificat en Adobe After Effect </h4>
+                        <h4 class="hc">2025 : Certificat en Adobe Marketing  Digital</h4>
+                        <h4 class="hc">2025 : Certificat en Adobe Développement </h4>
                     </section>
                     <!-- Section "Projets" -->
                     <section id="projects">
-                      <h1>Mes Projets</h1>
+                      <h1> Mes Projets</h1>
                       <div class="project-list">
                         <!-- Projet 1 -->
                         <div class="project">
-                          <img src="https://via.placeholder.com/600x400" alt="Aperçu Projet 1">
+                          <img src="images/Pub Horizon.jpg" alt="Aperçu Projet 1">
                           <div class="info">
                             <h3>Projet 1</h3>
-                            <p>Une brève description de ce projet (site vitrine, application web, etc.).</p>
-                            <p><a href="#" target="_blank">Voir le projet</a></p>
+                            <p> une publication publicitaire pour Horizon Academy </p>
+                            <p><a href="projet1.html" target="_blank">Voir le projet</a></p>
                           </div>
                         </div>
                         <!-- Projet 2 -->
                         <div class="project">
-                          <img src="https://via.placeholder.com/600x400" alt="Aperçu Projet 2">
+                          <img src="images/retouche.jpg" alt="Aperçu Projet 2">
                           <div class="info">
                             <h3>Projet 2</h3>
-                            <p>Un autre exemple : e-commerce, portfolio, blog, etc.</p>
-                            <p><a href="#" target="_blank">Voir le projet</a></p>
+                            <p> une retoucche faciale d'un visage acneique </p>
+                            <p><a href="projet2.html" target="_blank">Voir le projet</a></p>
                           </div>
                         </div>
                         <!-- Projet 3 -->
                         <div class="project">
-                          <img src="https://via.placeholder.com/600x400" alt="Aperçu Projet 3">
+                          <img src="images/Loginpage@1x.jpg" alt="Aperçu Projet 3">
                           <div class="info">
                             <h3>Projet 3</h3>
-                            <p>Tu peux ajouter autant de projets que tu veux ici.</p>
-                            <p><a href="#" target="_blank">Voir le projet</a></p>
+                            <p> design graphique d'une page login </p>
+                            <p><a href="projet3.html" target="_blank">Voir le projet</a></p>
                           </div>
                         </div>
                       </div>
                     </section>
                     <!-- Section "Contact" -->
-                    <section id="contact">
-                      <h1>Contact</h1>
-                      <p>
-                        Envie de collaborer sur un projet ?<br>
-                        Contacte-moi à l'adresse :
-                        <a href="mailto:monemail@example.com">monemail@example.com</a>
-                      </p>
-                    </section>
                 </div>
             </div>
         </main>
         <footer>
             <!-- place footer here -->
+              <h1 id="Contact">Contact</h1>
+              <p class="text-center">
+                Envie de collaborer sur un projet ?<br>
+                Contacte-moi à l'adresse :
+                <a href="mailto:monemail@example.com">mimira292@gmail.com</a>
+              </p>
+            </section>
         </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
     </body>
 </html>
